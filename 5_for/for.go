@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // for -> only construct in go for looping
 func main(){
 	// while loop
@@ -31,9 +29,9 @@ func main(){
 
 	// 1.22 range
 
-	for i := range 3{
-		fmt.Println(i)
-	}
+	// for i := range 3{
+	// 	fmt.Println(i)
+	// }
 
 
 }

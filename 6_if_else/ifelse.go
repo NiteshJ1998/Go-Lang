@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main(){
 	// age := 16
 
@@ -29,10 +27,14 @@ func main(){
 	// }
 
 	// we can declare a variable inside a constructor
-	if age:= 14; age>= 18{
-		fmt.Println("person is not an adult", age)
-	}else if age >= 12{
-		fmt.Println("person is a teenager" ,age)
-	}
+	// if age:= 14; age>= 18{
+	// 	fmt.Println("person is not an adult", age)
+	// }else if age >= 12{
+	// 	fmt.Println("person is a teenager" ,age)
+	// }
+
+	// go doesnt have ternary operator, you will have to use if else
+
+
 
 }
